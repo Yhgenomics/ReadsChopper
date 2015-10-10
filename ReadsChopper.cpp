@@ -201,6 +201,8 @@ namespace ReadsPreprocess
         AddPork( reads1 );
         AddPork( reads2 );
 
+        original_file_name_ = reads1;
+
         return 0;
     }
 
